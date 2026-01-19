@@ -22,8 +22,8 @@ int distancia_quadrada(const Point& a, const Point& b) {
 //       d >= 1
 // Post: Retorna el nombre de parelles de punts que apareixen consecutivament a v,
 //       i tals que la distància entre ells és menor o igual a d.
-int compute(VPoint &v, int distance)
-{
+int compute(VPoint &v, int distance) {
+    
     int n = v.size() ;
     int cont = 0 ;
     distance *= distance ;
@@ -34,13 +34,14 @@ int compute(VPoint &v, int distance)
     return cont ;
 }
 
-int main()
-{
-    int n, d;
+int main() {
+
+    int n , d ;
+
     while (cin >> n >> d) {
-        VPoint v(n);
-        for (int i = 0; i < n; i++)
-            cin >> v[i].x >> v[i].y;
-        cout << compute(v, d) << endl;
+        VPoint v(n) ;
+
+        for (int i = 0 ; i < n ; ++i) cin >> v[i].x >> v[i].y ;
+        cout << compute(v, d) << endl ;
     }
 }

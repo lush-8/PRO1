@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
 
 struct Point {
     int x, y;
@@ -10,8 +11,8 @@ typedef struct Point Point;
 // Afegiu funcions auxiliars si voleu.
 // ...
 
-int distancia_quadrada(const Point* a, const Point* b) {
-
+int distancia_quadrada(const Point* a, const Point* b) 
+{
     return (a->x - b->x)*(a->x - b->x) + (a->y - b->y)*(a->y - b->y) ;
 }
 
@@ -30,14 +31,16 @@ int compute(Point* v, int n, int distance)
     return cont ;
 }
 
-int main()
+int main(int argc, char** argv)
 {
-    int n, d;
+    int n , d ;
+
     while (scanf("%d %d", &n, &d) == 2) {
-        Point v[n];
-        for (int i = 0; i < n; i++)
-            scanf("%d %d", &v[i].x, &v[i].y);
-        printf("%d\n", compute(v, n, d));
+        Point v[n] ;
+
+        for (int i = 0 ; i < n ; ++i)
+            scanf("%d %d", &v[i].x, &v[i].y) ;
+        printf("%d\n", compute(v, n, d)) ;
     }
-    return 0;
+    exit(0) ;
 }

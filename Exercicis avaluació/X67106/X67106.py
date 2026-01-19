@@ -29,17 +29,17 @@ def main():
         n = int(input[idx])
         d = int(input[idx + 1])
         idx += 2
-        
         v = []
+
         for i in range(n):
             x = int(input[idx + 2 * i])
             y = int(input[idx + 2 * i + 1])
             v.append((x, y))
         
         idx += 2 * n
-        
         result = compute(v, d)
         print(result)
 
 if __name__ == "__main__":
+
     main()
