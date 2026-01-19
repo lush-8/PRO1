@@ -8,7 +8,7 @@ Tots els exercicis de **PRO1 2023-2024 Q1** del **JUTGE** resolts:
 
 ## 📁 Estructura del repositori
 
-Els exercicis s'anomenen igual que al jutge i estan organitzats en les mateixes carpetes. 
+Els exercicis s'anomenen igual que els del jutge i estan organitzats en les mateixes carpetes. 
 
 ---
 
