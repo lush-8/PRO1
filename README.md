@@ -21,5 +21,3 @@ Aquí trobaràs:
 - 🧾 **Examen final** (2 torns)
 - 🧪 **Mock exams** (2)
 - ⭐ **Altres problemes d’examen resolts**
-
----
