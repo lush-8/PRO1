@@ -1,4 +1,4 @@
-# 🚀 PRO1 (2023-2024 Q1)
+**🚀 PRO1 (2023-2024 Q1)**
 
 Tots els exercicis de **PRO1 2023-2024 Q1** del **JUTGE** resolts:
 
@@ -6,13 +6,13 @@ Tots els exercicis de **PRO1 2023-2024 Q1** del **JUTGE** resolts:
 
 ---
 
-## 📁 Estructura del repositori
+**📁 Estructura del repositori**
 
 Els exercicis s'anomenen igual que els del jutge i estan organitzats en les mateixes carpetes. 
 
 ---
 
-## 🧩 Carpeta “Exercicis avaluació”
+**🧩 Carpeta “Exercicis avaluació”**
 
 Aquí trobaràs:
 
@@ -23,7 +23,3 @@ Aquí trobaràs:
 - ⭐ **Altres problemes d’examen resolts**
 
 ---
-
-## 🙌 Col·laboració
-
-Si vols contribuir, qualsevol aportació serà benvinguda.
